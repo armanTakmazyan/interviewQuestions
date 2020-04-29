@@ -1,0 +1,140 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    max-width: 367px;
+    min-height: 170px;
+    border: 1px solid #EAEDF0;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 24px rgba(184, 197, 211, 0.47);
+    border-radius: 12px;
+}
+
+
+.card__background {
+    position: relative;
+    background: url(pineapple-supply-co-55760-unsplash.jpg) center / cover no-repeat;
+    min-height: 170px;
+}
+
+.card__background-inner {
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+}
+
+.card__image {
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    background: url(philipe-cavalcante.jpeg) center / cover no-repeat;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.card__views {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+
+
+.wrapper {
+    padding: 16px;
+}
+/*
+Actually for h1, p and span will be great
+if we will have separate "classes",
+but for now: keep it simple   
+*/
+.card__label h1 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #212121;
+}
+
+.card__label p {
+    margin: 16px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #212121;
+}
+
+.card__progress-bar {
+    margin: 20px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9C9C9C;
+}
+
+.card__progress-bar p {
+    margin: 0px;
+}
+
+.card__progress-bar span {
+    color: #4CE77B;
+}
+
+
+.card__progress {
+    margin: 2px 0px 0px 0px;
+}
+
+.progress {
+    position: relative;
+    height: 12px;
+    background: #F0F0F0;
+    border-radius: 100px;
+}
+
+.progress__inner {
+    border-radius: 100px;
+    height: 12px;
+    background: linear-gradient(90deg, #4CE77B 0%, #73F49A 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 64%;
+}
+
+
+.card__like-share {
+    font-size: 20px;
+}
+
+.card__action-area {
+    margin: 24px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__share {
+    margin: 0px 0px 0px 31px;
+}

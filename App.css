@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.main-wrapper {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.toDoApp {
+  flex: 0 1 800px;
+}
+
+.toDoApp__inner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.toDoApp__form {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.toDoApp__input {
+  flex: 1 1 auto;
+  padding: 5px;
+}
+
+.toDoApp__lists {
+  margin: 10px 0px 0px 0px;
+  border: 1px solid red;;
+}
+
+.toDoApp__list {
+  border: 1px solid black;
+  position: relative;
+  padding: 5px 25px 5px 10px;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.toDoApp__list + .toDoApp__list {
+  margin: 10px 0px 0px 0px;
+}
+
+
+.toDoApp__list:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.toDoApp__close-button {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+}
